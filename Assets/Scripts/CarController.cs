@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    
+
+    public float fwdSpeed;
+    public float revSpeed;
+    public float turnSpeed;
+    public float Accelerate = 2;
     public float Force = 1;
     public float Distance = 1;
     Rigidbody rb = new Rigidbody();
@@ -16,6 +20,20 @@ public class CarController : MonoBehaviour
 
     private float lastHitDist;
     public float length = 1f;
+    private float moveInput = 1;
+
+    void Update()
+    {
+        float turnInput = Input.GetAxis("Horizontal");
+        moveInput = Input.GetAxis("Vertical");
+
+        moveInput *= moveInput > 0 ? fwdSpeed : revSpeed;
+
+        float rotation = turnInput * turnSpeed * Time.deltaTime * Input.GetAxis("Vertical");
+        transform.Rotate(0,rotation,0,Space.World);
+        Debug.Log(turnInput);
+
+    }
     void FixedUpdate()
     {
         RaycastHit hit;
@@ -29,6 +47,10 @@ public class CarController : MonoBehaviour
         {
             lastHitDist = length * 1.1f;
         }
+
+        
+        rb.AddForce(-transform.up * moveInput,ForceMode.Acceleration);  
+        
     }
 
     public float strength = 1f;
