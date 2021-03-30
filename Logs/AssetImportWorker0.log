@@ -1,0 +1,356 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/milos/Documents/GitHub/Racing Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55903
+Successfully changed project path to: C:/Users/milos/Documents/GitHub/Racing Game
+C:/Users/milos/Documents/GitHub/Racing Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/milos/Documents/GitHub/Racing Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002027 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2553 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 123.1 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2970.
+Total: 3.437000 ms (FindLiveObjects: 0.337100 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.902300 ms  DeleteObjects: 1.123700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models/Door.blend
+  artifactKey: Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Door.blend using Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd247c9b91ca0e9834096d1b1dc40f8d1') in 0.296129 seconds
+  Import took 0.300507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.631181 seconds.
+  path: Assets/Models/Door.blend
+  artifactKey: Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Door.blend using Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a72d289ad545ed8fed3ae4525e29c4f') in 0.064639 seconds
+  Import took 0.069116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.312435 seconds.
+  path: Assets/Models/Door.blend
+  artifactKey: Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Door.blend using Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6729ad699a1c5213288fa350582b3cf1') in 0.056222 seconds
+  Import took 0.060881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Models/Door.blend
+  artifactKey: Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Door.blend using Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6729ad699a1c5213288fa350582b3cf1') in 0.072481 seconds
+  Import took 0.076394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.369502 seconds.
+  path: Assets/Models/Door.blend
+  artifactKey: Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Door.blend using Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61b5fe5bb0b2c1171d3f1cf5b9620be') in 0.057837 seconds
+  Import took 0.062617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.902170 seconds.
+  path: Assets/Models/Door.blend
+  artifactKey: Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Door.blend using Guid(26367fa7a666e624eb8a19a94d138e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb8be88b5377e9cca02c6a94f29e82a') in 0.064529 seconds
+  Import took 0.069075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.817820 seconds.
+  path: Assets/Animators/DoorController.controller
+  artifactKey: Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/DoorController.controller using Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242b29f1d65ffe23b39b6e69670fec01') in 0.010812 seconds
+  Import took 0.015442 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 122.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3054.
+Total: 3.315200 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.776800 ms  DeleteObjects: 1.174200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.837263 seconds.
+  path: Assets/Animators/DoorController.controller
+  artifactKey: Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/DoorController.controller using Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426b1e714fc48f43e2beec9a35b30635') in 0.014976 seconds
+  Import took 0.019342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004132 seconds.
+  path: Assets/Animators/DoorController.controller
+  artifactKey: Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/DoorController.controller using Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426b1e714fc48f43e2beec9a35b30635') in 0.003546 seconds
+  Import took 0.007075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 122.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3057.
+Total: 3.326300 ms (FindLiveObjects: 0.304500 ms CreateObjectMapping: 0.074000 ms MarkObjects: 1.712200 ms  DeleteObjects: 1.234700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1912.026368 seconds.
+  path: Assets/Animators/DoorController.controller
+  artifactKey: Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/DoorController.controller using Guid(5d189f266eb01ed49b6bcfe03541ff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd8c81274611ef4073d2ff898443de7') in 0.019816 seconds
+  Import took 0.024508 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 122.1 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3060.
+Total: 3.442900 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.081100 ms MarkObjects: 1.730600 ms  DeleteObjects: 1.299800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 656.576201 seconds.
+  path: Assets/Models/Racing Game Assets.blend1
+  artifactKey: Guid(a6c2163a5f1f79c4685c7549c76c5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Racing Game Assets.blend1 using Guid(a6c2163a5f1f79c4685c7549c76c5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93569de7fbf8b0a1935abe83baaa5cb') in 0.021622 seconds
+  Import took 0.026465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 309.401705 seconds.
+  path: Assets/Materials/Grass_Light.mat
+  artifactKey: Guid(df98a3813b1693c4eab64f217063ec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass_Light.mat using Guid(df98a3813b1693c4eab64f217063ec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57eb1f5f717e4b4b80e1780cbaba2c3') in 0.172534 seconds
+  Import took 0.177181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Materials/Leave_Light.mat
+  artifactKey: Guid(86b11b28d14a6b946aada01e99c8b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leave_Light.mat using Guid(86b11b28d14a6b946aada01e99c8b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb105180e490a28193535be3037469') in 0.020771 seconds
+  Import took 0.024116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Materials/Leave_Dark.mat
+  artifactKey: Guid(6e15a8bac448849459a5e4896eb74358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leave_Dark.mat using Guid(6e15a8bac448849459a5e4896eb74358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d6a18d04b67bace6fe3dc5842b7dbb') in 0.026610 seconds
+  Import took 0.030138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.075038 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef9cf467b868c04599e3c759bac1d9e') in 0.055854 seconds
+  Import took 0.060639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005178 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef9cf467b868c04599e3c759bac1d9e') in 0.022382 seconds
+  Import took 0.026656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.167056 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42adbf0077f0f049d349162419f1b79f') in 0.049451 seconds
+  Import took 0.053698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc20a0fafea9ea081e554349c4fc8a3') in 0.044956 seconds
+  Import took 0.048630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42adbf0077f0f049d349162419f1b79f') in 0.022395 seconds
+  Import took 0.026722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc20a0fafea9ea081e554349c4fc8a3') in 0.044008 seconds
+  Import took 0.047842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.646402 seconds.
+  path: Assets/Textures/NormalMapRoad.png
+  artifactKey: Guid(adfa0e6ccfb21dc4aa434226424ac0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/NormalMapRoad.png using Guid(adfa0e6ccfb21dc4aa434226424ac0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff04d79f5ecccfca3a11186b978e29e') in 0.021607 seconds
+  Import took 0.026102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003287 seconds.
+  path: Assets/Textures/NormalMapRoad.png
+  artifactKey: Guid(adfa0e6ccfb21dc4aa434226424ac0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/NormalMapRoad.png using Guid(adfa0e6ccfb21dc4aa434226424ac0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff04d79f5ecccfca3a11186b978e29e') in 0.014446 seconds
+  Import took 0.018220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.210113 seconds.
+  path: Assets/Models/Racing Game Assets.blend
+  artifactKey: Guid(d9240aa54e29813429b587b287e81364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Racing Game Assets.blend using Guid(d9240aa54e29813429b587b287e81364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee9d1351af4a895585ebf11c15fd5fa') in 2.373177 seconds
+  Import took 2.418899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.297773 seconds.
+  path: Assets/Models/Car.blend
+  artifactKey: Guid(4744688e6509d514c99de0d421d6e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car.blend using Guid(4744688e6509d514c99de0d421d6e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c057ed9b130c8c8623b87857d92582') in 0.037361 seconds
+  Import took 0.042053 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
