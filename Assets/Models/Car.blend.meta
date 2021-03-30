@@ -3,7 +3,47 @@ guid: 4744688e6509d514c99de0d421d6e16b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow stick
+    second: {fileID: 2100000, guid: 10c88357a16ddfb4995f6fba0f437fa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 3d120e518b9f10645857ec84399bbce5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 8508a1270e7fc3843a854e315ccea757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: e03ee08f39f65c64ebf6f82fcf05ad08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: e47d5868deb2421428f6db40adceff5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 2f9d9fb1fc573a8469fa63a137a89151, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: f9e3ed6352dd62143860b35b2495e2ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_main_color
+    second: {fileID: 2100000, guid: fc8cbf669bd771c49b57bd44b83e2938, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

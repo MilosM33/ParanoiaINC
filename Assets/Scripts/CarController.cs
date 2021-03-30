@@ -31,9 +31,11 @@ public class CarController : MonoBehaviour
 
         float rotation = turnInput * turnSpeed * Time.deltaTime * Input.GetAxis("Vertical");
         transform.Rotate(0,rotation,0,Space.World);
-        Debug.Log(turnInput);
+        
 
     }
+
+
     void FixedUpdate()
     {
         RaycastHit hit;
@@ -51,6 +53,8 @@ public class CarController : MonoBehaviour
         
         rb.AddForce(-transform.up * moveInput,ForceMode.Acceleration);  
         
+
+        //AntiGravity
     }
 
     public float strength = 1f;

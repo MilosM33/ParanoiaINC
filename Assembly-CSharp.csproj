@@ -59,6 +59,9 @@
     <Compile Include="Assets\Scenes\LoadingScreenScript.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\ObjectFollower.cs" />
+    <Compile Include="Assets\Scripts\DoorOpener.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
