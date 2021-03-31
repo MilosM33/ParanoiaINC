@@ -24,24 +24,35 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            rb.drag = 5;
+        }
+        else
+        {
+            rb.drag = 0.6f;
+            calculateMovement();
+        }
+
+    }
+
+    public void calculateMovement()
+    {
         float turnInput = Input.GetAxis("Horizontal");
         moveInput = Input.GetAxis("Vertical");
 
         moveInput *= moveInput > 0 ? fwdSpeed : revSpeed;
 
-        float rotation = turnInput * turnSpeed * Time.deltaTime * Input.GetAxis("Vertical");
-        transform.Rotate(0,rotation,0,Space.World);
-        
+        float rotation = turnInput * turnSpeed * Time.deltaTime;
+        transform.Rotate(0, rotation, 0, Space.World);
 
     }
-
-
     void FixedUpdate()
     {
         RaycastHit hit;
         if (Physics.Raycast(transform.position, -transform.forward, out hit, Distance))
         {
-            Debug.DrawRay(transform.position, -transform.forward);
+            Debug.DrawRay(transform.position, transform.forward);
             float forceAmount = HooksLawDampen(hit.distance);
             rb.AddForceAtPosition(transform.forward * forceAmount, transform.position);
         }
